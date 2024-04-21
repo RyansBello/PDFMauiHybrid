@@ -1,7 +1,8 @@
 ﻿function createPdf() {
     var element = document.getElementById('content');
+    var timestamp = new Date().toISOString().replace(/[:\-]|\.\d{3}/g, '');
     var docTitle = document.getElementById('documentTitle').innerText;
-    var filename = docTitle.replace(/\s+/g, '_') + '.pdf';
+    var filename = docTitle.replace(/\s+/g, '_') + timestamp + '.pdf';
     var opt = {
         margin: 1,
         filename: filename,
