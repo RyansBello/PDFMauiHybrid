@@ -6,7 +6,7 @@ using OpenFileRequest = Xamarin.Essentials.OpenFileRequest;
 using ReadOnlyFile = Xamarin.Essentials.ReadOnlyFile;
 
 
-namespace NazClient
+namespace PDFMauiHybrid
 {
     public class PrintHelper
     {
